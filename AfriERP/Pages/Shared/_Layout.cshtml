@@ -5,38 +5,189 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - AfriERP</title>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="navbar-container">
-                <a class="navbar-brand" href="/">AfriERP</a>
-                <div class="navbar-links">
-                    <a asp-page="/Index">Home</a>
-                    <a asp-page="/Employees">Employees</a>
-                    <a href="/Inventory">Inventory</a>
-                    <a href="/Finance">Finance</a>
+    <header class="navbar">
+        <div class="navbar-container">
+            <a href="/" class="navbar-brand">AfriERP</a>
+            <div class="navbar-links" style="margin: 0 auto;">
+                <a class="nav-link" href="/">Home</a>
+
+                <!-- Products Dropdown (Original) -->
+                <div class="dropdown cards-dropdown">
+                    <a class="nav-link dropbtn">Products</a>
+                    <div class="dropdown-full-wrapper">
+                        <div class="dropdown-content">
+                            <a href="/Modules/Business" class="feature-card">
+                                <i class="fas fa-briefcase fa-2x"></i>
+                                <h2>Business Management</h2>
+                                <p>Manage businesses, registrations, and details.</p>
+                            </a>
+                            <a href="/Modules/GeoMarkers" class="feature-card">
+                                <i class="fas fa-map-marker-alt fa-2x"></i>
+                                <h2>Geo Markers</h2>
+                                <p>Manage geo-tagged locations and mapping.</p>
+                            </a>
+                            <a href="/Modules/Waste" class="feature-card">
+                                <i class="fas fa-recycle fa-2x"></i>
+                                <h2>Waste Collection Management</h2>
+                                <p>Track payments, collections, and receipts.</p>
+                            </a>
+                            <a href="/Modules/Finance" class="feature-card">
+                                <i class="fas fa-file-invoice-dollar fa-2x"></i>
+                                <h2>Financials / Invoicing</h2>
+                                <p>Manage invoices, payments, and receipts.</p>
+                            </a>
+                            <a href="/Modules/Inventory" class="feature-card">
+                                <i class="fas fa-boxes fa-2x"></i>
+                                <h2>Stock / Inventory</h2>
+                                <p>Manage products, stock levels, and suppliers.</p>
+                            </a>
+                            <a href="/Modules/Analytics" class="feature-card">
+                                <i class="fas fa-chart-line fa-2x"></i>
+                                <h2>Reporting and Analytics</h2>
+                                <p>View financial and operational reports.</p>
+                            </a>
+                            <a href="/Modules/WaterService" class="feature-card">
+                                <i class="fas fa-water fa-2x"></i>
+                                <h2>Water Service Provider</h2>
+                                <p>Manage water services, billing, and connections.</p>
+                            </a>
+                            <a href="/Modules/Users" class="feature-card">
+                                <i class="fas fa-users fa-2x"></i>
+                                <h2>User Management</h2>
+                                <p>Create and manage user accounts and roles.</p>
+                            </a>
+                            <a href="/Modules/Messages" class="feature-card">
+                                <i class="fas fa-envelope fa-2x"></i>
+                                <h2>Notifications and Messaging</h2>
+                                <p>Send messages and manage notifications.</p>
+                            </a>
+                            <a href="/Modules/Settings" class="feature-card">
+                                <i class="fas fa-cogs fa-2x"></i>
+                                <h2>Settings and Preferences</h2>
+                                <p>Configure application preferences and language.</p>
+                            </a>
+                        </div>
+                    </div>
                 </div>
+
+                <div class="dropdown cards-dropdown">
+                    <a class="nav-link dropbtn">Solutions</a>
+                    <div class="dropdown-full-wrapper">
+                        <div class="dropdown-content" style="display: flex; padding: 30px; gap: 40px; min-width: 800px;">
+
+                            <!-- Sidebar Navigation -->
+                            <div style="min-width: 180px; border-right: 1px solid #ddd; padding-right: 20px;">
+                                <h3 style="color: #1e774f; font-weight: bold; margin-bottom: 10px;">Find your solution</h3>
+                                <ul style="list-style: none; padding: 0;">
+                                    <li><a href="#" class="hover:text-green-700" style="display: block; padding: 6px 0;">Company size</a></li>
+                                    <li><a href="#" class="hover:text-green-700" style="display: block; padding: 6px 0;">Industry</a></li>
+                                    <li><a href="#" class="hover:text-green-700" style="display: block; padding: 6px 0;">Tax advisor</a></li>
+                                    <li><a href="#" class="hover:text-green-700" style="display: block; padding: 6px 0;">Integrations</a></li>
+                                </ul>
+                            </div>
+
+                            <!-- Solutions Content Area -->
+                            <div class="dropdown cards-dropdown">
+                                <a class="nav-link dropbtn">Solutions</a>
+                                <div class="dropdown-full-wrapper">
+                                    <div class="dropdown-content">
+                                        <!-- Sidebar -->
+                                        <div class="solutions-sidebar">
+                                            <h3>Find your solution</h3>
+                                            <ul>
+                                                <li><button class="sidebar-tab active">Areas of application</button></li>
+                                                <li><button class="sidebar-tab">Company size</button></li>
+                                                <li><button class="sidebar-tab">Industry</button></li>
+                                                <li><button class="sidebar-tab">Tax advisor</button></li>
+                                                <li><button class="sidebar-tab">Integrations</button></li>
+                                            </ul>
+                                        </div>
+
+                                        <!-- Solutions Cards -->
+                                        <div class="solutions-cards">
+                                            <!-- Default items will be inserted by JS -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Login/Register -->
+                <a class="nav-link" href="/Login">Login</a>
+                <a class="nav-link" href="/Register">Register</a>
             </div>
-        </nav>
+        </div>
     </header>
 
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
-
-    <footer class="border-top footer text-muted">
+    <main class="main-content">
         <div class="container">
-            &copy; 2025 - AfriERP - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            @RenderBody()
         </div>
-    </footer>
+    </main>
+    <script>
+        const tabButtons = document.querySelectorAll('.sidebar-tab');
+        const cardsContainer = document.querySelector('.solutions-cards');
 
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+        const tabData = {
+            "Areas of application": [
+                { title: "CRM software", desc: "Efficient customer and contact management made easy." },
+                { title: "Accounting software", desc: "Always keep track of your company’s financial status." },
+                { title: "Project management", desc: "Plan, manage, and monitor your projects effectively." },
+                { title: "Warehouse management", desc: "Manage your inventory and optimize warehouse processes." },
+                { title: "Inventory management", desc: "Accelerate the flow of goods in your company." },
+            ],
+            "Company size": [
+                { title: "Startup", desc: "Flexible tools to get your business up and running." },
+                { title: "Large Company", desc: "Scalable ERP for enterprise operations." },
+                { title: "SMEs", desc: "Optimized solutions for small and medium enterprises." },
+            ],
+            "Industry": [
+                { title: "Ecommerce", desc: "Boost your online store with seamless integration." },
+                { title: "Wholesale", desc: "Manage bulk sales and stock efficiently." },
+                { title: "Medicine", desc: "Track inventory, patients, and compliance." },
+                { title: "IT Services", desc: "Project & team management for tech teams." },
+                { title: "Management Consulting", desc: "Data & insights to advise clients better." },
+                { title: "Agencies", desc: "Manage clients, campaigns, and reports." },
+                { title: "Grocery", desc: "Smart inventory and billing for groceries." },
+                { title: "System House", desc: "Full ERP for infrastructure & hardware providers." },
+            ],
+            "Tax advisor": [
+                { title: "Accounting", desc: "All-in-one accounting and reporting suite." }
+            ],
+            "Integrations": [
+                { title: "Amazon", desc: "Sell and sync products from Amazon." },
+                { title: "eBay", desc: "Integrate your ERP with eBay listings." },
+                { title: "Shopify", desc: "Manage Shopify store inventory and orders." },
+                { title: "Itscope", desc: "IT product procurement made simple." },
+                { title: "DateV", desc: "Seamless tax reporting and compliance." },
+            ]
+        };
 
-    @await RenderSectionAsync("Scripts", required: false)
+        tabButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all
+                tabButtons.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                const selected = btn.textContent.trim();
+                const data = tabData[selected] || [];
+
+                // Clear and update cards
+                cardsContainer.innerHTML = data.map(item =>
+                    <div class="solution-card">
+                        <h3>${item.title}</h3>
+                        <p>${item.desc}</p>
+                    </div>
+                ).join('');
+            });
+        });
+    </script>
+
 </body>
 </html>
