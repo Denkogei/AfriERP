@@ -73,121 +73,109 @@
                     </div>
                 </div>
 
-                <div class="dropdown cards-dropdown">
-                    <a class="nav-link dropbtn">Solutions</a>
-                    <div class="dropdown-full-wrapper">
-                        <div class="dropdown-content" style="display: flex; padding: 30px; gap: 40px; min-width: 800px;">
+         <div class="dropdown cards-dropdown">
+    <a class="nav-link dropbtn">Solutions</a>
+    <div class="dropdown-full-wrapper">
+        <div class="dropdown-content" style="display: flex; padding: 30px; gap: 40px; min-width: 800px;">
 
-                            <!-- Sidebar Navigation -->
-                            <div style="min-width: 180px; border-right: 1px solid #ddd; padding-right: 20px;">
-                                <h3 style="color: #1e774f; font-weight: bold; margin-bottom: 10px;">Find your solution</h3>
-                                <ul style="list-style: none; padding: 0;">
-                                    <li><a href="#" class="hover:text-green-700" style="display: block; padding: 6px 0;">Company size</a></li>
-                                    <li><a href="#" class="hover:text-green-700" style="display: block; padding: 6px 0;">Industry</a></li>
-                                    <li><a href="#" class="hover:text-green-700" style="display: block; padding: 6px 0;">Tax advisor</a></li>
-                                    <li><a href="#" class="hover:text-green-700" style="display: block; padding: 6px 0;">Integrations</a></li>
-                                </ul>
-                            </div>
-
-                            <!-- Solutions Content Area -->
-                            <div class="dropdown cards-dropdown">
-                                <a class="nav-link dropbtn">Solutions</a>
-                                <div class="dropdown-full-wrapper">
-                                    <div class="dropdown-content">
-                                        <!-- Sidebar -->
-                                        <div class="solutions-sidebar">
-                                            <h3>Find your solution</h3>
-                                            <ul>
-                                                <li><button class="sidebar-tab active">Areas of application</button></li>
-                                                <li><button class="sidebar-tab">Company size</button></li>
-                                                <li><button class="sidebar-tab">Industry</button></li>
-                                                <li><button class="sidebar-tab">Tax advisor</button></li>
-                                                <li><button class="sidebar-tab">Integrations</button></li>
-                                            </ul>
-                                        </div>
-
-                                        <!-- Solutions Cards -->
-                                        <div class="solutions-cards">
-                                            <!-- Default items will be inserted by JS -->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Login/Register -->
-                <a class="nav-link" href="/Login">Login</a>
-                <a class="nav-link" href="/Register">Register</a>
+            <!-- Sidebar Navigation -->
+            <div style="min-width: 180px; border-right: 1px solid #ddd; padding-right: 20px;">
+                <h3 style="color: #1e774f; font-weight: bold; margin-bottom: 10px;">Find your solution</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li><a href="#" class="sidebar-tab hover:text-green-700" style="display: block; padding: 6px 0;">Areas of application</a></li>
+                    <li><a href="#" class="sidebar-tab hover:text-green-700" style="display: block; padding: 6px 0;">Company size</a></li>
+                    <li><a href="#" class="sidebar-tab hover:text-green-700" style="display: block; padding: 6px 0;">Industry</a></li>
+                    <li><a href="#" class="sidebar-tab hover:text-green-700" style="display: block; padding: 6px 0;">Tax advisor</a></li>
+                    <li><a href="#" class="sidebar-tab hover:text-green-700" style="display: block; padding: 6px 0;">Integrations</a></li>
+                </ul>
             </div>
-        </div>
-    </header>
 
-    <main class="main-content">
-        <div class="container">
+            <!-- Solutions Cards -->
+            <div class="solutions-cards">
+                <!-- Default items will be inserted by JS -->
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Login/Register -->
+<a class="nav-link" href="/Login">Login</a>
+<a class="nav-link" href="/Register">Register</a>
+</div>
+</div>
+</header>
+
+<main class="main-content">
+    <div class="container">
             @RenderBody()
-        </div>
-    </main>
-    <script>
-        const tabButtons = document.querySelectorAll('.sidebar-tab');
-        const cardsContainer = document.querySelector('.solutions-cards');
+    </div>
+</main>
 
-        const tabData = {
-            "Areas of application": [
-                { title: "CRM software", desc: "Efficient customer and contact management made easy." },
-                { title: "Accounting software", desc: "Always keep track of your company’s financial status." },
-                { title: "Project management", desc: "Plan, manage, and monitor your projects effectively." },
-                { title: "Warehouse management", desc: "Manage your inventory and optimize warehouse processes." },
-                { title: "Inventory management", desc: "Accelerate the flow of goods in your company." },
-            ],
-            "Company size": [
-                { title: "Startup", desc: "Flexible tools to get your business up and running." },
-                { title: "Large Company", desc: "Scalable ERP for enterprise operations." },
-                { title: "SMEs", desc: "Optimized solutions for small and medium enterprises." },
-            ],
-            "Industry": [
-                { title: "Ecommerce", desc: "Boost your online store with seamless integration." },
-                { title: "Wholesale", desc: "Manage bulk sales and stock efficiently." },
-                { title: "Medicine", desc: "Track inventory, patients, and compliance." },
-                { title: "IT Services", desc: "Project & team management for tech teams." },
-                { title: "Management Consulting", desc: "Data & insights to advise clients better." },
-                { title: "Agencies", desc: "Manage clients, campaigns, and reports." },
-                { title: "Grocery", desc: "Smart inventory and billing for groceries." },
-                { title: "System House", desc: "Full ERP for infrastructure & hardware providers." },
-            ],
-            "Tax advisor": [
-                { title: "Accounting", desc: "All-in-one accounting and reporting suite." }
-            ],
-            "Integrations": [
-                { title: "Amazon", desc: "Sell and sync products from Amazon." },
-                { title: "eBay", desc: "Integrate your ERP with eBay listings." },
-                { title: "Shopify", desc: "Manage Shopify store inventory and orders." },
-                { title: "Itscope", desc: "IT product procurement made simple." },
-                { title: "DateV", desc: "Seamless tax reporting and compliance." },
-            ]
-        };
+<script>
+    const tabButtons = document.querySelectorAll('.sidebar-tab');
+    const cardsContainer = document.querySelector('.solutions-cards');
 
-        tabButtons.forEach(btn => {
-            btn.addEventListener('click', () => {
-                // Remove active class from all
-                tabButtons.forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
+    const tabData = {
+        "Areas of application": [
+            { title: "CRM software", desc: "Efficient customer and contact management made easy." },
+            { title: "Accounting software", desc: "Always keep track of your company’s financial status." },
+            { title: "Project management", desc: "Plan, manage, and monitor your projects effectively." },
+            { title: "Warehouse management", desc: "Manage your inventory and optimize warehouse processes." },
+            { title: "Inventory management", desc: "Accelerate the flow of goods in your company." },
+        ],
+        "Company size": [
+            { title: "Startup", desc: "Flexible tools to get your business up and running." },
+            { title: "Large Company", desc: "Scalable ERP for enterprise operations." },
+            { title: "SMEs", desc: "Optimized solutions for small and medium enterprises." },
+        ],
+        "Industry": [
+            { title: "Ecommerce", desc: "Boost your online store with seamless integration." },
+            { title: "Wholesale", desc: "Manage bulk sales and stock efficiently." },
+            { title: "Medicine", desc: "Track inventory, patients, and compliance." },
+            { title: "IT Services", desc: "Project & team management for tech teams." },
+            { title: "Management Consulting", desc: "Data & insights to advise clients better." },
+            { title: "Agencies", desc: "Manage clients, campaigns, and reports." },
+            { title: "Grocery", desc: "Smart inventory and billing for groceries." },
+            { title: "System House", desc: "Full ERP for infrastructure & hardware providers." },
+        ],
+        "Tax advisor": [
+            { title: "Accounting", desc: "All-in-one accounting and reporting suite." }
+        ],
+        "Integrations": [
+            { title: "Amazon", desc: "Sell and sync products from Amazon." },
+            { title: "eBay", desc: "Integrate your ERP with eBay listings." },
+            { title: "Shopify", desc: "Manage Shopify store inventory and orders." },
+            { title: "Itscope", desc: "IT product procurement made simple." },
+            { title: "DateV", desc: "Seamless tax reporting and compliance." },
+        ]
+    };
 
-                const selected = btn.textContent.trim();
-                const data = tabData[selected] || [];
+    function renderCards(category) {
+        const data = tabData[category] || [];
+        cardsContainer.innerHTML = data.map(item => `
+            <div class="solution-card">
+                <h4>${item.title}</h4>
+                <p>${item.desc}</p>
+            </div>
+        `).join('');
+    }
 
-                // Clear and update cards
-                cardsContainer.innerHTML = data.map(item =>
-                    <div class="solution-card">
-                        <h3>${item.title}</h3>
-                        <p>${item.desc}</p>
-                    </div>
-                ).join('');
-            });
+    // Default load
+    renderCards("Areas of application");
+
+    // Handle clicks
+    tabButtons.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            tabButtons.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            renderCards(btn.textContent.trim());
         });
-    </script>
+    });
+</script>
+
+
 
 </body>
 </html>

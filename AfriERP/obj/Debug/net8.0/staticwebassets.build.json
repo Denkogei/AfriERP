@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FD8IqDcMUJFEAv3DyZc476C2cCYgoL0jDtcXZcaTlHU=",
+  "Hash": "UcQJT0BHtk80ictRkYzxCzjolhyaNKPY+eyTZNfRZuA=",
   "Source": "AfriERP",
   "BasePath": "_content/AfriERP",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "i2q2yxrdid",
-      "Integrity": "emaOYjwetWgZcF/SUcV0+HuBrf1Tw9ZpF0i8lkhHcuI=",
+      "Fingerprint": "b8jjlptvd1",
+      "Integrity": "5U7eAY6iFkTpLKCDkXjzB5/+IXs8B4xjSilUO8vHOAY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -99,6 +99,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\AfriERP\\AfriERP\\wwwroot\\images\\home.jpg",
+      "SourceId": "AfriERP",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\AfriERP\\AfriERP\\wwwroot\\",
+      "BasePath": "_content/AfriERP",
+      "RelativePath": "images/home#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6x9l1pdeuz",
+      "Integrity": "huXnR+NzcKWv9LWLvf1XKATzD64d4PnHah5TjsuyZD4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\home.jpg"
     },
     {
       "Identity": "C:\\Users\\Admin\\source\\repos\\AfriERP\\AfriERP\\wwwroot\\images\\home.png",
@@ -1506,6 +1527,51 @@
       ]
     },
     {
+      "Route": "css/site.b8jjlptvd1.css",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AfriERP\\AfriERP\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14011"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5U7eAY6iFkTpLKCDkXjzB5/+IXs8B4xjSilUO8vHOAY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 08 Aug 2025 12:25:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b8jjlptvd1"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5U7eAY6iFkTpLKCDkXjzB5/+IXs8B4xjSilUO8vHOAY="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\Admin\\source\\repos\\AfriERP\\AfriERP\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1516,7 +1582,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "16711"
+          "Value": "14011"
         },
         {
           "Name": "Content-Type",
@@ -1524,11 +1590,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"emaOYjwetWgZcF/SUcV0+HuBrf1Tw9ZpF0i8lkhHcuI=\""
+          "Value": "\"5U7eAY6iFkTpLKCDkXjzB5/+IXs8B4xjSilUO8vHOAY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 07 Aug 2025 20:14:29 GMT"
+          "Value": "Fri, 08 Aug 2025 12:25:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1538,52 +1604,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-emaOYjwetWgZcF/SUcV0+HuBrf1Tw9ZpF0i8lkhHcuI="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.i2q2yxrdid.css",
-      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AfriERP\\AfriERP\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "16711"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"emaOYjwetWgZcF/SUcV0+HuBrf1Tw9ZpF0i8lkhHcuI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 07 Aug 2025 20:14:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "i2q2yxrdid"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-emaOYjwetWgZcF/SUcV0+HuBrf1Tw9ZpF0i8lkhHcuI="
+          "Value": "sha256-5U7eAY6iFkTpLKCDkXjzB5/+IXs8B4xjSilUO8vHOAY="
         }
       ]
     },
@@ -1670,6 +1691,51 @@
       ]
     },
     {
+      "Route": "images/home.6x9l1pdeuz.jpg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AfriERP\\AfriERP\\wwwroot\\images\\home.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59393"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"huXnR+NzcKWv9LWLvf1XKATzD64d4PnHah5TjsuyZD4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 08 Aug 2025 08:23:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6x9l1pdeuz"
+        },
+        {
+          "Name": "label",
+          "Value": "images/home.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-huXnR+NzcKWv9LWLvf1XKATzD64d4PnHah5TjsuyZD4="
+        }
+      ]
+    },
+    {
       "Route": "images/home.7zbo9q1043.png",
       "AssetFile": "C:\\Users\\Admin\\source\\repos\\AfriERP\\AfriERP\\wwwroot\\images\\home.png",
       "Selectors": [],
@@ -1711,6 +1777,43 @@
         {
           "Name": "integrity",
           "Value": "sha256-o7PLuVjrkNsrwG4VVSfGK1b/laTUB+BPuYDoOz9ITmM="
+        }
+      ]
+    },
+    {
+      "Route": "images/home.jpg",
+      "AssetFile": "C:\\Users\\Admin\\source\\repos\\AfriERP\\AfriERP\\wwwroot\\images\\home.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59393"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"huXnR+NzcKWv9LWLvf1XKATzD64d4PnHah5TjsuyZD4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 08 Aug 2025 08:23:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-huXnR+NzcKWv9LWLvf1XKATzD64d4PnHah5TjsuyZD4="
         }
       ]
     },
