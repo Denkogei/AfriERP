@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UcQJT0BHtk80ictRkYzxCzjolhyaNKPY+eyTZNfRZuA=",
+  "Hash": "T0Dj1RWktp1n2rHX28GhQhrASka2Wx3GQ+YENpPYpNg=",
   "Source": "AfriERP",
   "BasePath": "_content/AfriERP",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "b8jjlptvd1",
-      "Integrity": "5U7eAY6iFkTpLKCDkXjzB5/+IXs8B4xjSilUO8vHOAY=",
+      "Fingerprint": "3vsih8wliv",
+      "Integrity": "n3MB65gmmVovdayilfU8ouryeCsLyKuPV1DW05vHE9M=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1527,7 +1527,7 @@
       ]
     },
     {
-      "Route": "css/site.b8jjlptvd1.css",
+      "Route": "css/site.3vsih8wliv.css",
       "AssetFile": "C:\\Users\\Admin\\source\\repos\\AfriERP\\AfriERP\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1537,7 +1537,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14011"
+          "Value": "13935"
         },
         {
           "Name": "Content-Type",
@@ -1545,11 +1545,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5U7eAY6iFkTpLKCDkXjzB5/+IXs8B4xjSilUO8vHOAY=\""
+          "Value": "\"n3MB65gmmVovdayilfU8ouryeCsLyKuPV1DW05vHE9M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 08 Aug 2025 12:25:05 GMT"
+          "Value": "Sat, 09 Aug 2025 14:47:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1559,7 +1559,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b8jjlptvd1"
+          "Value": "3vsih8wliv"
         },
         {
           "Name": "label",
@@ -1567,7 +1567,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-5U7eAY6iFkTpLKCDkXjzB5/+IXs8B4xjSilUO8vHOAY="
+          "Value": "sha256-n3MB65gmmVovdayilfU8ouryeCsLyKuPV1DW05vHE9M="
         }
       ]
     },
@@ -1582,7 +1582,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14011"
+          "Value": "13935"
         },
         {
           "Name": "Content-Type",
@@ -1590,11 +1590,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5U7eAY6iFkTpLKCDkXjzB5/+IXs8B4xjSilUO8vHOAY=\""
+          "Value": "\"n3MB65gmmVovdayilfU8ouryeCsLyKuPV1DW05vHE9M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 08 Aug 2025 12:25:05 GMT"
+          "Value": "Sat, 09 Aug 2025 14:47:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1604,7 +1604,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-5U7eAY6iFkTpLKCDkXjzB5/+IXs8B4xjSilUO8vHOAY="
+          "Value": "sha256-n3MB65gmmVovdayilfU8ouryeCsLyKuPV1DW05vHE9M="
         }
       ]
     },

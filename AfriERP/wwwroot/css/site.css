@@ -322,7 +322,7 @@ nav {
 }
 
     .solutions-sidebar ul li {
-        margin-bottom: 8px; /* Optional: adds spacing between tabs */
+        margin-bottom: 8px; 
     }
 
 /* Sidebar tabs styling with icons */
@@ -333,7 +333,7 @@ nav {
     text-align: left;
     width: 100%;
     font-size: 16px;
-    color: #2e7d32; /* Your green */
+    color: #2e7d32; 
     cursor: pointer;
     transition: background-color 0.3s ease;
     display: flex;
@@ -342,7 +342,7 @@ nav {
 }
 
     .sidebar-tab:hover {
-        background-color: #e0f2f1; /* Light green on hover */
+        background-color: #e0f2f1; 
     }
 
     .sidebar-tab.active {
@@ -669,7 +669,7 @@ nav {
 .btn-login {
     width: 100%;
     padding: 12px;
-    background-color: ;
+    background-color: #00bfa5;
     color: white;
     border: none;
     border-radius: 6px;

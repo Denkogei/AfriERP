@@ -12,17 +12,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bIaaPWmwwu6GGc9xim45FXFIfbpABVl00drbWKAq5/I="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1125"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022bIaaPWmwwu6GGc9xim45FXFIfbpABVl00drbWKAq5/I=\u0022"},{"Name":"Last-Modified","Value":"Wed, 06 Aug 2025 16:10:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/AfriERP/css/site.b8jjlptvd1.css">
+    <StaticWebAssetEndpoint Include="_content/AfriERP/css/site.3vsih8wliv.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"b8jjlptvd1"},{"Name":"integrity","Value":"sha256-5U7eAY6iFkTpLKCDkXjzB5/\u002BIXs8B4xjSilUO8vHOAY="},{"Name":"label","Value":"_content/AfriERP/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"14011"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00225U7eAY6iFkTpLKCDkXjzB5/\u002BIXs8B4xjSilUO8vHOAY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 08 Aug 2025 12:25:05 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3vsih8wliv"},{"Name":"integrity","Value":"sha256-n3MB65gmmVovdayilfU8ouryeCsLyKuPV1DW05vHE9M="},{"Name":"label","Value":"_content/AfriERP/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"13935"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022n3MB65gmmVovdayilfU8ouryeCsLyKuPV1DW05vHE9M=\u0022"},{"Name":"Last-Modified","Value":"Sat, 09 Aug 2025 14:47:43 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AfriERP/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-5U7eAY6iFkTpLKCDkXjzB5/\u002BIXs8B4xjSilUO8vHOAY="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"14011"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00225U7eAY6iFkTpLKCDkXjzB5/\u002BIXs8B4xjSilUO8vHOAY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 08 Aug 2025 12:25:05 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-n3MB65gmmVovdayilfU8ouryeCsLyKuPV1DW05vHE9M="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"13935"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022n3MB65gmmVovdayilfU8ouryeCsLyKuPV1DW05vHE9M=\u0022"},{"Name":"Last-Modified","Value":"Sat, 09 Aug 2025 14:47:43 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AfriERP/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>

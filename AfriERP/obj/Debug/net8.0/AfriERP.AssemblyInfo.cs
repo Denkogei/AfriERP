@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AfriERP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70cd99076801f389e9ae9ecc3a4ecdb98fa4d528")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2c02cfc55e4d593b8fb188f16ab26d245f09fb6")]
 [assembly: System.Reflection.AssemblyProductAttribute("AfriERP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AfriERP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
