@@ -1,0 +1,130 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #004d00;
+    padding: 10px 20px;
+    color: white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+    .navbar-links a:hover {
+        text-decoration: underline;
+    }
+
+
+.hero {
+    background-color: #006400;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+}
+
+.feature-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 280px;
+    transition: transform 0.2s ease;
+}
+
+    .feature-card:hover {
+        transform: scale(1.05);
+    }
+
+    .feature-card h2 {
+        color: #006400;
+    }
+.page-title h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #343a40;
+}
+/* Table Styling */
+.erp-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+    .erp-table th,
+    .erp-table td {
+        padding: 12px 15px;
+        border: 1px solid #ccc;
+        text-align: left;
+    }
+
+    .erp-table thead {
+        background-color: #2e7d32;
+        color: white;
+    }
+
+    .erp-table tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+/* Responsive */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+        .navbar a {
+            margin: 10px 0;
+        }
+
+    .container {
+        padding: 10px;
+    }
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    text-align: center;
+    color: #6c757d;
+    font-size: 14px;
+    border-top: 1px solid #dee2e6;
+}
